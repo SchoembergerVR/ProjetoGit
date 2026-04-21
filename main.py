@@ -1,6 +1,6 @@
 print("Projeto Calculadora")
 
-a = float(input("Digite o primairo número: "))
+a = float(input("Digite o primeiro número: "))
 b = float(input("Digite o segundo número: "))
 
 print("Escolha a operação desejada:")
