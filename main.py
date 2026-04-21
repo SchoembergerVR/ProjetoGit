@@ -1,7 +1,7 @@
 print("Projeto Calculadora")
 
-a = float(input("Digite o primeiro número: "))
-b = float(input("Digite o segundo número: "))
+a = 1
+b = 2
 
 print("Escolha a operação desejada:")
 print("1 - Soma")
@@ -9,7 +9,7 @@ print("2 - Subtração")
 print("3 - Multiplicação")
 print("4 - Divisão")
 
-operacao = input("Número da operação: ")
+operacao = "3"
 
 if operacao == "4" and b == 0:
     print("Erro: divisão por zero")
