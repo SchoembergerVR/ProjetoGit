@@ -10,7 +10,7 @@ def main():
     print("3 - Multiplicação")
     print("4 - Divisão")
 
-    operacao = input("Número da operação: ")
+    operacao = 3
 
     if operacao == "4" and b == 0:
         print("Erro: divisão por zero")
