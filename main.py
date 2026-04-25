@@ -1,8 +1,8 @@
 print("Projeto Calculadora")
 
 def main():
-    a = float(input("Digite o primairo número: "))
-    b = float(input("Digite o segundo número: "))
+    a = 3
+    b = 5
 
     print("Escolha a operação desejada:")
     print("1 - Soma")
