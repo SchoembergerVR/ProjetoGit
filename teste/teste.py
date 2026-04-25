@@ -1,3 +1,4 @@
+"""Teste de código"""
 import pytest
 from src.calculadora import calcular
 

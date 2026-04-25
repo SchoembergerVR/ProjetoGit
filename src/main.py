@@ -1,3 +1,4 @@
+"""Método main"""
 from calculadora import calcular
 
 def main():
