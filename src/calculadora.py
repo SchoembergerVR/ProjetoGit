@@ -1,5 +1,6 @@
-"""Operações básicas de calculadora"""
+"""Calculadora"""
 def calcular(a, b, operacao):
+    """Operações básicas de calculadora"""
     if operacao == "4" and b == 0:
         return "Erro: divisão por zero"
     if operacao == "1":
