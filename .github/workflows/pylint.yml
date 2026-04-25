@@ -28,7 +28,7 @@ jobs:
     - name: Set PYTHONPATH
       run: echo "PYTHONPATH=." >> $GITHUB_ENV
     - name: Run tests
-      run: pytest -v
+      run: pytest teste/ -v
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py') --fail-under=8
